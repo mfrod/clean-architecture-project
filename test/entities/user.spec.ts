@@ -1,5 +1,4 @@
-import { InvalidNameError } from './errors/invalid-name-error'
-import { User } from './user'
+import { User } from '../../src/entities'
 
 describe ('User Domain entity', () =>{
     test('should not create user with invalid email address', () => {
