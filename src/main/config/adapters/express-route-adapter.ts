@@ -1,6 +1,6 @@
 import { RegisterUserController } from '@/web-controllers/'
 import { Request, Response } from 'express'
-import { HttpRequest } from '@/web-controllers/ports'
+import { HttpRequest } from '@/web-controllers/'
 
 
 export const adaptRoute = (controller: RegisterUserController) => {
